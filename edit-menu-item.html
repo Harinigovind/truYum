@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>menu</title>
+	<link rel="stylesheet" type="text/css" href="style\edit-menu.css">
+    <script type="text/javascript" src="js\edit-menu.js">
+    	
+    </script>
+
+
+	
+</head>
+<body>
+	<div id="header">
+		<header> 
+			<label id="tru">truYum </label>
+			<img src="C:\Users\HP\Desktop\truyum-ui\image\truyum-logo-light.png" height="50px" width="50px"><label></label>
+			<label><a class="menu" href ="mennu-list-item-admin.html"> Menu</a> </label>
+		</header>
+	</div>
+	<div id ="editmenu">
+		<form name="edit" id="editform"onsubmit="return Validate();">
+			<h1>Edit Menu Items</h1>
+		<table class ="edit">
+			
+			<tr>
+				<td> Name</td>
+				
+			</tr>
+			<tr><td><input type="text" size="85px;" name="title" id="food"  required="true"></td>
+			</tr>
+		</table>
+		<table class="edit">
+			<tr>
+				<td>Price (Rs.)</td>
+				<td>Active</td>
+				<td>Date of Launch</td>
+				<td>Category</td>
+				
+			</tr>
+			<tr>
+				<td><input type="number" name="price" id="price" required="true"></td>
+				<td><input type="radio" name="inStock" id="activeyes" value="Yes">Yes
+					<input type="radio" name="inStock" id="activeno" value="No">No</td>
+				<td><input type="text" name="dateOfLaunch" id="dateOfLaunch" required="true"></td>
+				<td><select name = "category">
+					<option value="Main Course">Main course</option>
+					<option value="Starters">Starters</option>
+					<option value="Dessert"> Dessert</option>
+					<option value="Drinks">Drinks</option>
+				</select></td>
+				
+			</tr>
+			
+			<tr>
+				<td><input type="checkbox" name="Free Delivery" value="yes"> Free Delivery</td>
+				
+			</tr>
+			s
+			<tr><td style="width:5%;  ">
+				<input type="submit" name="submit" id="submit" value ="Save"style="color:white; background-color:#4c5fd9; ">   </td>
+			</tr>
+			
+		</table>
+	</div>
+</form>
+	<div>
+		<footer id ="footer"> <br/> Copyright &copy; 2019</footer>
+	</div>
+
+
+</body>
+</html>

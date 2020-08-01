@@ -1,0 +1,41 @@
+
+footer{
+	background-color: gray;
+	height:80px;
+}
+
+header{
+	background-color: #3253ad;
+	
+	color: #ffffff;
+	height:80px;
+	
+
+}
+table{
+	margin-left: 250px;
+	margin-top: 10px;
+
+}
+th,td{
+	padding: 5px;
+}	
+
+.menu{
+	float: right;
+	color: #ffffff;
+	padding: 14px 16px;
+	font-size: 20px;
+}
+
+
+/*#menubody{
+	width:800px;
+	height: 300px;
+	align-content: center;
+
+}
+#menuadmin{
+	padding: 50px;
+	margin: 50px;
+}
