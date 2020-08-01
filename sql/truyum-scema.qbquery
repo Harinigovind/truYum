@@ -1,3 +1,0 @@
-﻿create database truyum;
-
-create table menu_items(menu_id int primary key,menu_name varchar(50) not null);
